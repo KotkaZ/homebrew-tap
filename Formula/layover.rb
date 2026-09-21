@@ -1,25 +1,25 @@
 class Layover < Formula
-  desc "Run a lights-out agent factory: supervise headless agent CLIs, route messages between them, and keep them bounded."
+  desc "Supervise headless agent CLIs, route their messages, and bound what they spend."
   homepage "https://kotkaz.github.io/layover-project/"
-  version "0.23.0"
+  version "0.23.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.0/layover-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f51d141b978cfbab4e8b42e5052ec2ab6259fafc97e61ceeb23ede1abb623736"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.1/layover-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "d75d2519bc33050d9239607dbaa3703742f41fd09d6f289cfd52c607de8692f4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.0/layover-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c700f16d89ff5fb3469aa29cb744393b5a62c2d24856921efbb0de7c291ec7f3"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.1/layover-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "c43989614bb939b689fb0dde97d380d3753f3b555bf6db66aa27b18c678a8ffd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.0/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "17fcf67ec89fc9738becbf5dff059ecf9cc4bf0da98cc2e2d3885b8f37b9122d"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.1/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "83fcda3fa1420270db34ff068afea7863868eb796bed6a59134c7cf5e883dd69"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.0/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d7b0bfd861892eabb05f54ed10be48e857045993975e57cf0f4a5ec268ca38eb"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.1/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "339394c14deaacbe11f697648b048961729d91d01d89d0fc84fefb9888119deb"
     end
   end
   license "Apache-2.0"
