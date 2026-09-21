@@ -1,25 +1,25 @@
 class Layover < Formula
   desc "Supervise headless agent CLIs, route their messages, and bound what they spend."
   homepage "https://kotkaz.github.io/layover-project/"
-  version "0.23.2"
+  version "0.23.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.2/layover-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "fb6c7f72ed6d800d931e87b6068c21c4fc86b42db2d9258b64d4d4df02da94a5"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.3/layover-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "5c4b96cc46fed71b8d3d310e032fd08681af2bd30a39a3fcd2827dd1aa4db8d9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.2/layover-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "2ffe702054f96ca2c9059d4fdca766325a36e3f1990eb051012354a443628a97"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.3/layover-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "742b870b79e21a0b009ac295ddd42936f40b442ebba17d55a7d85baa43c6ee02"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.2/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3a00c57ec23ade0bb8f1ca7f5c54971c3abd8aa71e9d26c5546911c723feb359"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.3/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f4b16b0245309954f5b27090485c4f5e58f6619d1bb719b68f9dffc3b97716de"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.2/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9b6538dfcfb265703dfdcf66228d33cfcf46a38edf533a0980a58125dcbfb9b7"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v0.23.3/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "186399b3ff121bb66c886ac973bb496aea7bc1a14d81c2c70e5b2ace19e72230"
     end
   end
   license "Apache-2.0"
