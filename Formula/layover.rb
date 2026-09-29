@@ -1,25 +1,25 @@
 class Layover < Formula
   desc "Supervise headless agent CLIs, route their messages, and bound what they spend."
   homepage "https://kotkaz.github.io/layover-project/"
-  version "1.0.0"
+  version "1.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.0.0/layover-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "c15bd3128907d59a292b73374aca6817e081cde77854b9f09d15130557170a18"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.1.0/layover-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "bb841822292515a3809f0d26b8882b972db42e75547ea2b4e024010a0d070fbc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.0.0/layover-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "4608cd5e864cd3f47ee6f9e08d43f33012de352c9cd43b29ab70adec3383c60c"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.1.0/layover-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "7822e4882fc53f0eb6e3c5d11e2e41cc5899e4eaedfc7f1956d5863be5185f4f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.0.0/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b312a61228d19401b31ed982bb1b2a0d81f5ea3bda1e6700b7465ac48ff4d368"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.1.0/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b1883bbd646f1b1cff9343a4b58b312accdb4a11ba68288eb7fb885a42fb1fa3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.0.0/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4846806256e9a663de3c35402b502bdea2916721077cfb3462cd1015aaf11ced"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.1.0/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d8fd2e56bd1457eda863effa50a8a13fb6dcea16cab540b49ffce930b7e017e7"
     end
   end
   license "Apache-2.0"
