@@ -1,25 +1,25 @@
 class Layover < Formula
   desc "Supervise headless agent CLIs, route their messages, and bound what they spend."
   homepage "https://kotkaz.github.io/layover-project/"
-  version "1.9.0"
+  version "1.10.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.9.0/layover-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "0cea481e4b175ba2a95ff8933e9c6b95c6cc114c7fa37ad1878618c1a0af3d74"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.10.0/layover-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "2adeeff1ddeb0ea8d5e1365ea61fd3cffddda4093961c3ffd7e0597b9f0cbadd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.9.0/layover-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "5030d351efd10f003de25cd64c19e028bf772769f52cb956e7069f631c2580f1"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.10.0/layover-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "cbd41d0490e5f47148d984e4db2f94a471c1215483e23913dafe465ebd8762f4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.9.0/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "95cefee7acbafad7b50f1569d28fbb79515d65dd6b5e7efc30e5109af98ac769"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.10.0/layover-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b81484b1051badbb6965d9ee62bcdc7e1e30a3fbe23f0885ea092f905eec6b27"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KotkaZ/layover-project/releases/download/v1.9.0/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2ff5eb83b58408f376f2e320b8e2056e361780a9bab98db50465771413cd0678"
+      url "https://github.com/KotkaZ/layover-project/releases/download/v1.10.0/layover-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4dc7e814f29e4aab56b7cff320b8c0586e5f1a00badc2666a8e4a305369a0a9e"
     end
   end
   license "Apache-2.0"
